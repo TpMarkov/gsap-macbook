@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
+import ProductViewer from "./components/ProductViewer.jsx";
 
 const App = () => {
 
@@ -8,6 +9,7 @@ const App = () => {
       <main>
         <Navbar/>
         <Hero/>
+        <ProductViewer/>
       </main>
   )
 }
