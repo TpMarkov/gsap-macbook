@@ -8,7 +8,7 @@ const Hero = () => {
       videoRef.current.playbackRate = 2
     }
 
-  })
+  }, [])
 
   return (
       <section id={"hero"}>
