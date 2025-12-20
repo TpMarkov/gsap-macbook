@@ -6,6 +6,7 @@ import gsap from "gsap"
 import {ScrollTrigger, SplitText} from "gsap/all"
 
 import ModelSwitcher from "./components/three/ModelSwitcher.jsx";
+import ShowCase from "./components/ShowCase";
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -17,6 +18,7 @@ const App = () => {
         <Navbar/>
         <Hero/>
         <ProductViewer/>
+        <ShowCase/>
       </main>
   )
 }

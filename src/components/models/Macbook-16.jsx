@@ -29,7 +29,7 @@ export function MacbookModel16(props) {
         }
       }
     })
-  }, [color]);
+  }, [color, scene]);
 
   const texture = useTexture("/screen.png")
   return (
