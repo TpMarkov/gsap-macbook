@@ -111,4 +111,4 @@ Visit the interactive experience here: [https://apple-clone-lime-phi.vercel.app]
 
 ---
 
-Developed with ❤️ by [Your Name]
+Developed with ❤️ by [Tsvetan Markov]
