@@ -33,7 +33,7 @@ This project is a high-fidelity web application built to showcase the MacBook Pr
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="./screenshots/homepage.png" alt="Homepage Screenshot" width="300" />
+  <img src=".[/screenshots/homepage.png](https://i.ibb.co/s9Sjq4h7/home.png)" alt="Homepage Screenshot" width="300" />
   <img src="./screenshots/3d-view.png" alt="3D Product View" width="300" />
   <img src="./screenshots/features.png" alt="Features Section" width="300" />
 </div>
