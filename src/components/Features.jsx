@@ -24,7 +24,7 @@ const ModelScroll = () => {
       const v = document.createElement("video");
 
       Object.assign(v, {
-        source: item.videoPath,
+        src: item.videoPath,
         muted: true,
         playsInline: true,
         preload: "auto",
