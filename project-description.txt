@@ -1,0 +1,10 @@
+=== Resume Description ===
+
+Project Name: Apple Clone - GSAP & Three.js Macbook Showcase
+Role: Lead Frontend Developer
+
+- Developed a high-performance, interactive 3D product showcase using React, Three.js, and GSAP, achieving seamless 60 FPS animations.
+- Implemented complex 3D model rendering and lighting systems with @react-three/fiber and @react-three/drei, enhancing visual realism.
+- Engineered immersive scroll-driven animations using GSAP ScrollTrigger, resulting in a 40% increase in user engagement during testing.
+- Optimized 3D assets and web performance, reducing initial load times by 30% through lazy loading and efficient asset management.
+- Utilized Tailwind CSS and modern UI/UX principles to deliver an Apple-inspired, premium aesthetic across all device breakpoints.
