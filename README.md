@@ -1,5 +1,11 @@
 # Apple Clone - GSAP & Three.js Macbook Showcase
 
+<div align="center">
+  <img src="./screenshots/banner.png" alt="Apple Clone Banner" width="100%" />
+</div>
+
+<br />
+
 [![Live Demo](https://img.shields.io/badge/demo-live-green.svg)](https://apple-clone-lime-phi.vercel.app)
 [![React](https://img.shields.io/badge/React-19.2.0-blue.svg)](https://react.dev/)
 [![Three.js](https://img.shields.io/badge/Three.js-0.182.0-black.svg)](https://threejs.org/)
@@ -32,17 +38,38 @@ This project is a high-fidelity web application built to showcase the MacBook Pr
 
 ## 📸 Screenshots
 
-<div align="center">
-  <img src="./screenshots/homepage.png" alt="Homepage Screenshot" width="300" />
-  <img src="./screenshots/3d-view.png" alt="3D Product View" width="300" />
-  <img src="./screenshots/features.png" alt="Features Section" width="300" />
-</div>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="./screenshots/hero.png" width="400px;" alt="Hero Landing"/><br />
+      <b>Hero Landing</b><br />
+      Dynamic tagline with GSAP animations
+    </td>
+    <td align="center">
+      <img src="./screenshots/viewer.png" width="400px;" alt="3D Model Viewer"/><br />
+      <b>3D Model Viewer</b><br />
+      Interactive Three.js Macbook Pro model
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="./screenshots/features.png" width="400px;" alt="Advanced Features"/><br />
+      <b>Advanced Features</b><br />
+      Immersive feature highlights
+    </td>
+    <td align="center">
+      <img src="./screenshots/performance.png" width="400px;" alt="Performance Specs"/><br />
+      <b>Performance Specs</b><br />
+      High-fidelity performance metrics
+    </td>
+  </tr>
+</table>
 
-### 🛠 How to add your own images:
-1. Create a `/screenshots` folder at the root of the repository.
-2. Upload your optimized images (aim for under 200KB).
-3. Reference them in the README using relative paths: `![Alt Text](./screenshots/image.png)`.
-4. Use the `width="300"` attribute to ensure a clean, responsive layout on GitHub.
+### ✨ Visual Highlights:
+- **Hero Animation**: Smooth CSS/GSAP transitions on load.
+- **3D Interaction**: Real-time lighting and texture rendering.
+- **Responsive Design**: Optimized for all modern screen sizes.
+- **Micro-interactions**: Hover effects and scroll-triggered animations.
 
 ---
 
