@@ -12,12 +12,16 @@ import React from 'react'
 import {useGLTF, useTexture} from '@react-three/drei'
 import useMacbookStore from "../../store/index.js";
 import {noChangeParts} from "../../../constants/index.js";
-import {Color} from "three"
+import {Color, SRGBColorSpace} from "three"
 import {useEffect} from "react";
 
 export function MacbookModel14(props) {
   const {nodes, materials, scene} = useGLTF('/models/macbook-14-transformed.glb')
   const {color} = useMacbookStore()
+  const texture = useTexture("/screen.png")
+
+  texture.colorSpace = SRGBColorSpace
+  texture.needsUpdate = true
 
   useEffect(() => {
 
@@ -29,8 +33,6 @@ export function MacbookModel14(props) {
       }
     })
   }, [color, scene]);
-
-  const texture = useTexture("/screen.png")
 
 
   return (
@@ -55,7 +57,7 @@ export function MacbookModel14(props) {
         <mesh geometry={nodes.Object_96.geometry} material={materials.PaletteMaterial003}
               rotation={[Math.PI / 2, 0, 0]}/>
         <mesh geometry={nodes.Object_107.geometry} material={materials.JvMFZolVCdpPqjj} rotation={[Math.PI / 2, 0, 0]}/>
-        <mesh geometry={nodes.Object_123.geometry} material={materials.sfCQkHOWyrsLmor}
+        <mesh geometry={nodes.Object_123.geometry}
               rotation={[Math.PI / 2, 0, 0]}>
           <meshBasicMaterial map={texture}/>
         </mesh>
