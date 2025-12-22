@@ -38,7 +38,6 @@ This project is a high-fidelity web application built to showcase the MacBook Pr
 
 ## 📸 Screenshots
 
-<<<<<<< HEAD
 <table align="center">
   <tr>
     <td align="center">
