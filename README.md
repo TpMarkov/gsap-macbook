@@ -6,6 +6,15 @@
 
 <br />
 
+
+---
+
+## 🌐 Live Demo
+
+Visit the interactive experience here: [https://apple-clone-lime-phi.vercel.app](https://apple-clone-lime-phi.vercel.app)
+
+---
+
 [![Live Demo](https://img.shields.io/badge/demo-live-green.svg)](https://apple-clone-lime-phi.vercel.app)
 [![React](https://img.shields.io/badge/React-19.2.0-blue.svg)](https://react.dev/)
 [![Three.js](https://img.shields.io/badge/Three.js-0.182.0-black.svg)](https://threejs.org/)
@@ -102,13 +111,5 @@ This project is a high-fidelity web application built to showcase the MacBook Pr
    ```bash
    npm run build
    ```
-
----
-
-## 🌐 Live Demo
-
-Visit the interactive experience here: [https://apple-clone-lime-phi.vercel.app](https://apple-clone-lime-phi.vercel.app)
-
----
 
 Developed with ❤️ by Tsvetan Markov
